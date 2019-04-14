@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+header{
+
+  display:flex;
+  /*  background-color: #1E90FF;*/
+    /*padding: 3px;*/
+
+    margin: 0 auto;
+
+ justify-content: center;
+
+background-color: #D3D3D3;
+
+}
+body{
+  background-color: #E7EFEF;
+  font-family: Roboto,sans-serif;
+}
+.h_wrap{
+  display:flex;
+  /*  background-color: #1E90FF;*/
+    /*padding: 3px;*/
+flex-wrap:wrap;
+    margin: 0 auto;
+
+ justify-content: center;
+
+background-color: #D3D3D3;
+width: 100%;
+
+}
+.header_wrapper{
+  border: 1px solid #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height:50px;
+  
+}
+.headlog{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+.headlog a{
+text-decoration: none;
+padding: 10px 30px;
+border: 1px solid grey;
+border-radius: 25px;
+color: grey;
+margin-left: 10px;
+}
+.homehead{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.homehead a{
+text-decoration: none;
+padding: 1px 3px;
+color:#1dcaff;/*#00aced*/
+font-size: 15px;
+font-weight: bold;
+}
+.headerblock{
+height:150px;
+width:100%;
+
+}
+.profilepic img{
+  position: relative;
+  top: -50px;
+  width: 100px;
+}
+.footHeader{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width:100%;
+  height:50px;
+}
+.headlog2 a{
+    display: flex;
+     align-items: center;
+     padding: 10px 25px;
+     border: 1px solid grey;
+     border-radius: 25px;
+     position: relative;
+     bottom: -5px;
+     text-decoration: none;
+     color: grey;
+}
+.stats{
+  display: flex;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  padding: 3px;
+  width: 980px;
+  margin: 0 auto;
+  justify-content: center;
+}
+aside{
+  display: flex;
+flex-direction: column;
+
+width: 40%;
+justify-content: flex-start;
+}
+.a_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/*.rightpart{
+  display: flex;
+flex-direction: row;
+border: 1px solid black;
+width: 60%;
+}*/
+.a1_container{
+  margin-top: 20px;
+}
+.a1_1_container{
+  padding: 5px;
+}
+.a1_1_container img{
+  width: 20px;
+  padding: 0 5px;
+}
+.photo{
+  height: 400px;
+  background-color: #ffffff;
+
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.phototext{
+  border-bottom: 1px solid #E7EFEF;
+  padding-left: 10px;
+}
+.photopic{
+  display: flex;
+  justify-content: center;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.photopic_grid{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.photopic_grid_1 img{
+  width: 100px;
+}
+.follow{
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.followtext{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #E7EFEF;
+}
+.followtext_1{
+  align-self: center;
+}
+.followuser{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E7EFEF;
+}
+.followuserimg{
+  width: 100px;
+  align-self: center;
+}
+.followbutton{
+
+  margin-top: 10px;
+}
+.followuserdetails{
+  padding: 10px;
+}
+.followbutton a{
+
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 3px solid #18ADDE;
+  color: #18ADDE;
+  border-radius: 25px;
+}
+.followfoot{
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.asidefooter{
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.rightpart{
+  display: flex;
+flex-direction: column;
+
+width: 60%;
+justify-content: space-between;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.rightpart1{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #E7EFEF;
+  padding: 10px;
+}
+.rightpart1_2 span{
+  color: #18ADDE;
+  font-weight: bold;
+}
+.post1{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #E7EFEF;
+  padding: 10px;
+}
+.postuserimg{
+  width: 100px;
+  align-self:baseline;
+}
+.postcontent{
+
+  margin-top: 10px;
+}
+.postuserdetails{
+  padding: 10px;
+}
+.postfooterimg{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.postfooterimg_1{
+  padding: 10px;
+}
+.playimg{
+  margin-left: 40%;
+  position: relative;
+  top: -200px;
+}
